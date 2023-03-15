@@ -3065,3 +3065,25 @@
 		}
 
 	}
+
+	.call-button{
+		background-color: #5385c1;
+		color: #fff;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		width: 64px;
+		height: 64px;
+		border-radius: 50%;
+		
+	}
+	.call-button div{
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		cursor: pointer;
+	}
+	.call-button:hover{
+		margin-bottom: 1px;
+		margin-right: 1px;
+	}
